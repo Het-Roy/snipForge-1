@@ -79,11 +79,11 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-black text-white mb-4 tracking-tighter uppercase">
-              Community Snippets
+              Explore Snippets
             </h2>
             <div className="h-1 w-20 bg-indigo-600 mx-auto rounded-full mb-6" />
             <p className="text-slate-500 text-lg max-w-2xl mx-auto font-medium">
-              Browse thousands of production-ready snippets vetted by the developer community.
+              Browse thousands of production-ready snippets made with care by the developer community.
             </p>
           </div>
           

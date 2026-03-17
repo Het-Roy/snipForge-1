@@ -11,34 +11,24 @@ Whether you are building personal utilities, storing team-ready patterns, or exp
 ## Workflow
 
 ### 1. Signup
-Users can create a secure account to start building their own snippet library. This is the first step toward managing reusable code in a personalized workspace where future snippets, preferences, and saved content can be organized in one place.
 
-<img src="YOUR_SIGNUP_IMAGE_LINK_HERE" alt="Signup page preview" width="100%" />
+<img src="https://res.cloudinary.com/dwpjwccxd/image/upload/v1773736262/signup_cggdkq.png" alt="Signup page preview" width="100%" />
 
 ### 2. Login
-The login page allows existing users to securely access their SnipForge account. Once signed in, they can continue managing saved snippets, explore shared content, and return to their workflow without losing continuity.
 
-<img src="YOUR_LOGIN_IMAGE_LINK_HERE" alt="Login page preview" width="100%" />
+<img src="https://res.cloudinary.com/dwpjwccxd/image/upload/v1773736117/login_lh0zow.png" alt="Login page preview" width="100%" />
 
 ### 3. Dashboard
-The dashboard acts as the main control center of the platform. It gives users a clear overview of their saved snippets, personal workspace activity, and quick access to the code resources they use most often.
 
-<img src="YOUR_DASHBOARD_IMAGE_LINK_HERE" alt="Dashboard preview" width="100%" />
+<img src="https://res.cloudinary.com/dwpjwccxd/image/upload/v1773736719/dashboard_uwrxbp.png" alt="Dashboard preview" width="100%" />
 
-### 4. Create
-The create page is where users write and structure new snippets. They can add titles, descriptions, languages, tags, and code content so every snippet is easier to understand, search, and reuse later.
+### 4. Create & Publish
 
-<img src="YOUR_CREATE_IMAGE_LINK_HERE" alt="Create snippet page preview" width="100%" />
+<img src="https://res.cloudinary.com/dwpjwccxd/image/upload/v1773736737/create_sasgzv.png" alt="Create snippet page preview" width="100%" />
 
-### 5. Post
-After preparing a snippet, users can publish it to their collection or make it available for broader discovery. This step turns raw code into a documented and reusable resource that can support future projects and collaboration.
+### 5. Explore
 
-<img src="YOUR_POST_IMAGE_LINK_HERE" alt="Post snippet preview" width="100%" />
-
-### 6. Explore
-The explore section helps users discover useful snippets shared across the platform. Developers can browse community-driven code, review implementation ideas, and quickly find reusable solutions for real-world development tasks.
-
-<img src="YOUR_EXPLORE_IMAGE_LINK_HERE" alt="Explore page preview" width="100%" />
+<img src="https://res.cloudinary.com/dwpjwccxd/image/upload/v1773736758/explore_bxt1xy.png" alt="Explore page preview" width="100%" />
 
 ---
 
@@ -60,6 +50,69 @@ The explore section helps users discover useful snippets shared across the platf
 - **MongoDB**
 - **Tailwind CSS**
 - **Redux Toolkit**
+
+---
+
+## How to Run the Application
+
+### 1. Clone the project
+
+```bash
+git clone <YOUR_REPOSITORY_LINK>
+cd snipForge-1
+```
+
+### 2. Install backend dependencies
+
+```bash
+cd server
+npm install
+```
+
+### 3. Install frontend dependencies
+
+```bash
+cd ../frontend
+npm install
+```
+
+### 4. Configure environment variables
+
+Create a `.env` file inside the `server` folder and add the required values for your project setup, such as:
+
+```env
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+PORT=5000
+```
+
+If your frontend depends on a custom backend URL, add the required frontend environment variables as well.
+
+### 5. Start the backend server
+
+Open a terminal in the `server` folder and run:
+
+```bash
+npm start
+```
+
+### 6. Start the frontend application
+
+Open another terminal in the `frontend` folder and run:
+
+```bash
+npm start
+```
+
+### 7. Open the app in your browser
+
+After both servers are running, open:
+
+```bash
+http://localhost:3000
+```
+
+The frontend will load in the browser and communicate with the backend server running locally.
 
 ---
 
